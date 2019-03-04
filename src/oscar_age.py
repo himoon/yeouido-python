@@ -4,7 +4,7 @@ def oscar_age():
    하나의 파일로 merge 하세요(`oscar_age.csv`).
 2. `Name` 과 `Movie` 컬럼 사이에 `Gender` 컬럼을 추가한 후, `Female` 또는 `Male` 값을 넣으세요.
 3. `Year` 컬럼 값으로 오름차순 정렬하고, `Index` 값을 새로 작성하세요."""
-    
+
     # open csv files
     f1 = open("oscar_age_female.csv")
     f2 = open("oscar_age_male.csv")
@@ -12,22 +12,22 @@ def oscar_age():
 
     # set list to store the values
     data = []
-    
+
     # read female.csv
     for line in f1:
         pass
 
     # read male.csv
+    f2.readline()
     for line in f2:
         pass
 
     # sort data
     data.sort()
-    
+
     # write csv
     index = 0
-    for line in data[1:]:
-        index += 1
+    for line in data:
         pass
 
     # close the files
