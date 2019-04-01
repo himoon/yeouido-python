@@ -2,5 +2,7 @@
   "editor.detectIndentation": false,
   "[python]": {
     "editor.tabSize": 4
-  }
+  },
+  "python.linting.enabled": false,
+  "python.pythonPath": "/usr/local/opt/python/libexec/bin/python"
 }
