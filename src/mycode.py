@@ -10,6 +10,9 @@ https://stackoverflow.com/questions/354038/how-do-i-check-if-a-string-is-a-numbe
 https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals"""
     # code goes here
+    f = open("./src/cities.csv")
+    print(f.read())
+    f.close()
     pass
 
 
